@@ -7,6 +7,16 @@ class Test {
     {some bad code 
       Print void
       static dynamic}
+        public DataHolder() {
+    }
+
+    public void setData(String data) {
+        this.data = data;
+    }
+
+    public String getData() {
+        return this.data;
+    }
   }
 
 }
