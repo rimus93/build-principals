@@ -1,7 +1,36 @@
 package com.test;
 
 class Test {
-    public static main(String[] args) {
-        System.out.println("Welcome to Java);
-    }
+
+  public static void main(String[] args) {
+    System.out.println("Hello, MNT Lab");
+  }
+
+}
+package com.test;
+
+class Test {
+
+  public static void main(String[] args) {
+    System.out.println("Hello, MNT Lab");
+  }
+
+}
+package com.test;
+
+class Test {
+
+  public static void main(String[] args) {
+    System.out.println("Hello, MNT Lab");
+  }
+
+}
+package com.test;
+
+class Test {
+
+  public static void main(String[] args) {
+    System.out.println("Hello, MNT Lab");
+  }
+
 }
