@@ -2,21 +2,28 @@ package com.test;
 
 class Test {
 
-  public static void main(String[] args) {
-    System.out.println("Hello, MNT Lab");
-    {some bad code 
-      Print void
-      static dynamic}
-        public DataHolder() {
-    }
+  public class ComplicatedDataHolder {
+    public final String data;
+    public final int num;
 
-    public void setData(String data) {
-        this.data = data;
-    }
+    public static class Builder {
+        private String data;
+        private int num;
+        
+        public Builder data(String data) {
+            this.data = data;
+            return this;
+        }
 
-    public String getData() {
-        return this.data;
+        public Builder num(int num) {
+            this.num = num;
+            return this;
+        }
+
+        public ComplicatedDataHolder build() {
+            return new ComplicatedDataHolder(data, num);
+        }  
     }
-  }
+}ЪЪ
 
 }
